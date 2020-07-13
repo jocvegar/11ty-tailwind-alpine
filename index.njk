@@ -1,0 +1,13 @@
+{% extends "_includes/default.njk" %}
+
+{% block title %}I Work!{% endblock %}
+
+{% block content %}
+  <div class="fixed inset-0 flex justify-center items-center">
+    <div>
+      <span class="text-change text-2xl">Good design</span><br/>
+      <span class="change text-blue">is as little design</span><br/>
+      <span x-data="{message:'as possible'}" x-text="message"></span>
+    </div>
+  </div>
+{% endblock %}
